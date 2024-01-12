@@ -10,7 +10,7 @@ function SinUp() {
        <div className='wrapper'> 
         <div className='sinup'>
         <form action='' method='POST'>
-              <h1>SinUp</h1><br/><br/><br/>
+              <h1>SignUp</h1><br/><br/><br/>
               
               <div className='name'>
                 <div className='sinup2'>
@@ -35,15 +35,15 @@ function SinUp() {
             </div>
             <div className="sinup5">
             <label >confirm password</label><br/>
-                <input type="text"  required className='sinupsix'/><br/>
+                <input type="password"  required className='sinupsix'/><br/>
 
             </div><br/><br/>
             <div className="remember">
-            <input type="checkbox" className='check'/> I accept Terms of use and  privacy policy 
+            <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy 
             </div><br/>
-            <button type="submit" className='btnsinup'>SinUp</button><br/><br/>
+            <button type="submit" className='btnsinup'>SignUp</button><br/><br/>
             <div className="register-link">
-                <p className='sinup6'>Already have an account?<a href="login">Login In Here</a></p>
+                <p className='sinup6'>Already have an account?<a href="login" >Login In Here</a></p>
   </div>
             </form>
         </div>

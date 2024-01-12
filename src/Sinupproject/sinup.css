@@ -9,6 +9,11 @@
       flex-direction: column;
   
     }}
+    @media(max-width:700px){
+      .sinupsecond{
+         flex-direction: column;
+     
+       }}
 
 
 body{
@@ -31,6 +36,8 @@ body{
    width: 50rem;
    position: relative;
    padding-top: 4%;  
+   border-radius: .8rem;
+  
   
   }
  
@@ -94,7 +101,7 @@ body{
     
 
      .wrapper p{
-      font-size: 1.3rem;
+      font-size: 1.2rem;
    
 
     }
@@ -109,14 +116,19 @@ body{
       margin-left: -50%;
       
     }
-    .btn{
+    .btnsinup{
       display: inline-block; 
      padding:  1rem 2.8rem;
      background-color:white;
      color: #C8AB8D;
      border-radius: 1.5rem;
      font-size: 1.3rem;
+     transition: 5s ease;
+   
     }
+        .btnsinup:hover{
+          box-shadow: none;
+        }
       .name {
       display: flex;
       gap: 0.5rem;
@@ -183,9 +195,22 @@ body{
      .remember{
       margin-right:-6%;
       font-size: 1.3rem;
-      margin-left: 20%;
+      margin-left: -20%;
+      padding: 2rem;
+     font-family: sans-serif;
+
     
      }
+     .remember{
+      padding: 2rem;
+     }
+
+     .larger-checkbox {
+      width: 30px; 
+      height: 20px; 
+      margin-left: -80px;
+     
+  }
      .sinup2 .sinupfirst{
       width: 14rem;
       padding:0.5rem;
@@ -218,4 +243,8 @@ body{
       font-size: 1.3rem;
       
      }
+     .sinup6 a{
+      color: black-;
+     }
+    
     
